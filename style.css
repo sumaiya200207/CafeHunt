@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+.head{
+    width: 100%;
+    height: 100vh;
+    padding: 15px 8%;
+}
+nav{
+    display: flex;
+    /* background-color: rgb(218, 9, 9); */
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .img-demo{
+    width: 150px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+    margin-right: 70px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 30px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    
+}
+
+nav ul li a:hover{
+    background-color: rgb(255, 196, 0); 
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.col2{
+    flex-basis: 50%;
+    display: flex;
+    padding: 5%;
+    
+}
+.burger{
+    width: 40%;
+    z-index: 1;
+    bottom: 0%;
+    right: 15%;
+    position: absolute;
+    
+    
+}
+.pizza{
+    width: 30%;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+}
+.juice{
+   right: 0;
+   bottom: 5%;
+   left: 55%;
+   z-index: -1;
+   position: absolute;
+   width: 30%;
+   
+}
+
+.col1 h1{
+
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 25%;
+    font-family:  'Lucida Grande';
+}
+.col1 p{
+    padding: 2% 0;
+    font-weight: bold;
+}
+.col1 .btn{
+    padding: 10px 20px;
+    margin: 3% 0;
+    border: 0;
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.col1 .btn a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Times New Roman';
+    font-weight: 600;
+}
+.icon{
+    
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    
+}
+.icon i{
+    margin-right: 10%;
+    padding: 0 10px;
+    color: #3f414e;
+    
+}
+.icon i:hover{
+    color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
